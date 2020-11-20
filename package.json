@@ -1,0 +1,37 @@
+{
+  "name": "states-cities-the-brazil",
+  "version": "0.0.1",
+  "description": "States and cities the Brazil",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsoliveira87/states-cities-the-brazil.git"
+  },
+  "keywords": [
+    "States",
+    "Cities",
+    "Brazil"
+  ],
+  "author": "Robson Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsoliveira87/states-cities-the-brazil/issues"
+  },
+  "homepage": "https://github.com/rsoliveira87/states-cities-the-brazil#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "npx": "^10.2.2"
+  }
+}

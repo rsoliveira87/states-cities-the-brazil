@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'mixins';
+@import 'default';
+
+.form-group {
+    .form {
+        margin: 5px;
+        position: relative;
+        .icon {
+            height: 12px;
+            position: absolute;
+            right: 20px;
+            top: 25px;
+            width: 12px;
+        }
+        .form-control {
+            background: $white;
+            border: 1px solid $dark-gray;
+            border-radius: 4px;
+            font-size: 18px;
+            padding: 20px;
+            outline: none;
+            width: 100%;
+            @include my-property(appearance, none);
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .form-group {
+        .form {
+            width: 48%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        .form {
+            width: 100%;
+        }
+    }
+}
